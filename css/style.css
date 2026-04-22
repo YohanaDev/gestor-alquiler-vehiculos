@@ -86,3 +86,36 @@ body {
     margin-bottom: 10px;
     color: #2c3e50;
 }
+
+/* Navbar*/
+.header-top {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 40px; 
+}
+
+.menu-superior {
+    display: flex;
+    gap: 20px; 
+}
+
+.menu-superior a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.menu-superior a:hover {
+    color: #1abc9c;
+    text-decoration: underline;
+}
+
+
+.logo-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
